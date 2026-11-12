@@ -66,8 +66,7 @@ for each item. Nothing is hardcoded.
 * **Missing data**: if the item is not in the Exploded BOM, or its BOM qty is below
   1 PCS per case (a BOM data error), the divisor that the reference report used for that
   row and column is used instead. If there is none (a new row), the Make Cases cell is
-  **left blank**. Either way the item is listed on the *Exceptions* tab. The item is then
-  listed on the *Exceptions* tab. Items whose machine line has no report column are listed
+  **left blank**. Either way the item is listed on the *Exceptions* tab. Items whose machine line has no report column are listed
   there too.
 
 `Max Can Make` and the `AL` column keep the reference formulas (`MAX(C,E)`, `=S`,
